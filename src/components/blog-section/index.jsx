@@ -2,6 +2,13 @@ import React from "react";
 import "./style.css";
 import direito from "../../images/images/direito.svg";
 import Cards from "../cards";
+import card1 from '../../images/images/card1.svg'
+import card2 from '../../images/images/card2.svg'
+import card3 from '../../images/images/card3.svg'
+import card4 from '../../images/images/card4.svg'
+import card5 from '../../images/images/card5.svg'
+import card6 from '../../images/images/card6.svg'
+import FooterAboutUs from "../footer-about-us";
 
 const BlogSection = () => {
 	return (
@@ -17,11 +24,11 @@ const BlogSection = () => {
 						ex fugiat ducimus minima.
 					</p>
 				</div>
-				<div>
+				<div className="card-container">
 
 
 					<Cards
-						img={direito}
+						img={card1}
 						title={"Derecho Mercantil "}
 						text={
 							"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
@@ -29,43 +36,44 @@ const BlogSection = () => {
 					/>
 
 					<Cards
-						img={direito}
-						title={"Derecho Mercantil "}
+						img={card2}
+						title={"Derecho Societario Mercantill "}
 						text={
 							"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
 						}
 					/>
 					<Cards
-						img={direito}
-						title={"Derecho Mercantil "}
+						img={card3}
+						title={"Derecho Fiscal "}
 						text={
 							"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
 						}
 					/>
 					<Cards
-						img={direito}
-						title={"Derecho Mercantil "}
+						img={card4}
+						title={"Derecho Procesal "}
 						text={
 							"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
 						}
 					/>
 					<Cards
-						img={direito}
-						title={"Derecho Mercantil "}
+						img={card5}
+						title={"Valoración De Empresas "}
 						text={
 							"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
 						}
 					/>
 					<Cards
-						img={direito}
-						title={"Derecho Mercantil "}
+						img={card6}
+						title={"Derecho De La Competencia "}
 						text={
-							
+
 							"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
 						}
 					/>
 				</div>
 			</div>
+			<FooterAboutUs />
 		</>
 	);
 };
