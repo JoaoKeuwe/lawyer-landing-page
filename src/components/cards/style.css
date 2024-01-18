@@ -1,6 +1,6 @@
 .card {
   border: 0.67px solid #ccbd99;
-  width: 500px;
+  width: 350px;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,7 @@
   margin: 20px;
   border-radius: 20px;
   transition: all 0.4s;
+  cursor: pointer;
 }
 
 .card img {
