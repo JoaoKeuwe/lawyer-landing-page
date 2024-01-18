@@ -22,6 +22,10 @@
   padding: 10rem;
   justify-items: center;
   align-items: center;
+  background-image: url(../../images/images/backgroundAbout.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .about-us-container h3 {
