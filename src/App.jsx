@@ -4,6 +4,7 @@ import BlogSection from "./components/blog-section";
 import Experience from "./components/experience";
 import Header from "./components/header";
 import Hero from "./components/hero";
+import News from "./components/news";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </div>
       <div>
         <Experience />
+      </div>
+      <div>
+        <News />
       </div>
     </div>
   );
