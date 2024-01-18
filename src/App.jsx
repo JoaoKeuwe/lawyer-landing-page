@@ -2,6 +2,7 @@ import "./App.css";
 import AboutUs from "./components/about-us";
 import BlogSection from "./components/blog-section";
 import Experience from "./components/experience";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import News from "./components/news";
@@ -26,6 +27,9 @@ function App() {
       </div>
       <div>
         <News />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
