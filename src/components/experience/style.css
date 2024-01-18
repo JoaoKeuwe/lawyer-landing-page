@@ -1,0 +1,18 @@
+.images-team {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+  padding-top: 5rem;
+}
+
+.card-team h2 {
+  font-size: 20px;
+}
+
+.button-team {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none
+}
