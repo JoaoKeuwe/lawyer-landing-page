@@ -1,37 +1,33 @@
 .container-footer-about {
-background-image: url(../../images/images/citaprevia-02.png);
-background-size: cover;
-background-position: center;
-padding: 10rem;
-}
-
-.about-footer {
-
+  background-image: url(../../images/images/citaprevia-02.png);
+  background-size: cover;
+  background-position: center;
+  padding: 8rem 10rem;
 }
 
 .about-footer p {
- color: #FFF;
+  color: #fff;
 
-font-family: "Playfair Display";
-font-size: 32.16px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-text-transform: uppercase;
+  font-family: "Playfair Display";
+  font-size: 32.16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .span {
-  color: #B79D5B;
-font-family: "Playfair Display";
-font-size: 32.16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
+  color: #b79d5b;
+  font-family: "Playfair Display";
+  font-size: 32.16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .about-footer button {
-  background: #CCBD99;
+  background: #ccbd99;
   border: none;
   padding: 10px;
   width: 210px;
