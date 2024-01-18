@@ -1,0 +1,41 @@
+.container-footer-about {
+background-image: url(../../images/images/citaprevia-02.png);
+background-size: cover;
+background-position: center;
+padding: 10rem;
+}
+
+.about-footer {
+
+}
+
+.about-footer p {
+ color: #FFF;
+
+font-family: "Playfair Display";
+font-size: 32.16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.span {
+  color: #B79D5B;
+font-family: "Playfair Display";
+font-size: 32.16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.about-footer button {
+  background: #CCBD99;
+  border: none;
+  padding: 10px;
+  width: 210px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+}
