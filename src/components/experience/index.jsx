@@ -4,6 +4,7 @@ import ana from "../../images/images/ana.png";
 import ignacio from "../../images/images/ignacio.png";
 import antoni from "../../images/images/antoni.png";
 import experience from "../../images/images/experience.svg";
+import woman from "../../images/images/woman.webp";
 
 const Experience = () => {
   return (
@@ -44,13 +45,27 @@ const Experience = () => {
           <h2>Antoni Seguí Alcaraz</h2>
           <p>
             Socio economista – administrador <br /> concursal – mediador
-            concursal – economista
+            concursal <br /> – economista
           </p>
         </div>
       </div>
 
       <div style={{ display: "flex", justifyContent: "center" }}>
         <button className="button-team">Fale com nossa equipe</button>
+      </div>
+
+      <div className="feedback">
+        <div className="feedbacks-content">
+          <p style={{color: 'white'}}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
+
+          <div className="woman-container">
+            <img src={woman} alt="" />
+            <div className="information-woman">
+              <h2>Michelle Rodrigues</h2>
+              <p>Administradora</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
