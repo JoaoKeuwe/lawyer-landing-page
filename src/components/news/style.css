@@ -1,0 +1,6 @@
+.news-container {
+display: flex;
+justify-content: center;
+gap: 5rem;
+margin-top: 3rem;
+}
