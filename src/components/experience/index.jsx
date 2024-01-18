@@ -3,12 +3,19 @@ import "./style.css";
 import ana from "../../images/images/ana.png";
 import ignacio from "../../images/images/ignacio.png";
 import antoni from "../../images/images/antoni.png";
+import experience from "../../images/images/experience.svg";
 
 const Experience = () => {
   return (
     <div>
       <div>
-        <div className="image-direito"></div>
+        <div className="image-direito">
+          <img
+            style={{ width: "100px", marginTop: "20px" }}
+            src={experience}
+            alt=""
+          />
+        </div>
         <div className="about-content">
           <p className="p1">Nossas experiências a sua disposição</p>
           <p className="p2">
