@@ -51,6 +51,7 @@
   flex-shrink: 0;
   background-color: #ccbd99;
   color: white;
+  
 }
 
 .button-group {
@@ -69,6 +70,8 @@
 .know-more {
   background: #ccbd99;
   padding: 2rem 10rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .know-more p {
