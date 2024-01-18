@@ -7,8 +7,17 @@ li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+*::-webkit-scrollbar {
+  width: 13px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ccbd99;
+  border-radius: 10px;
 }
 
 /* .container-hero {
@@ -20,6 +29,10 @@ a{
  
 } */
 
-h1,h2,h3,h4,p{
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
 }
