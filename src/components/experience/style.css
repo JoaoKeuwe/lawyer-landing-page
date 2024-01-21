@@ -1,6 +1,7 @@
 .images-team {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 3rem;
   padding-top: 5rem;
 }
@@ -67,4 +68,15 @@ line-height: 35px; /* 238.889% */
   width: 60px;
   height: 60px;
   border-radius: 50%;
+}
+
+@media(max-width: 768px) {
+  .feedback {
+    padding: 2rem;
+  }
+  
+  .feedbacks-content p {
+    width: 23rem;
+    font-size: 20px;
+  }
 }
