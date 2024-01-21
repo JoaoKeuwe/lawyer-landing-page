@@ -39,13 +39,13 @@
 .navbar-list li {
   color: #000;
 
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 18.76px; /* 175% */
-letter-spacing: 0.096px;
-text-transform: uppercase;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.76px; /* 175% */
+  letter-spacing: 0.096px;
+  text-transform: uppercase;
 }
 
 .sub-navbar-container {
@@ -57,4 +57,53 @@ text-transform: uppercase;
 
 .sub-navbar-container img {
   width: 300px;
+}
+
+.search {
+  width: 30px;
+  background: #b79d5b;
+  padding: 15px;
+  margin-left: 15px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 1450px) {
+  .list-itens {
+    gap: 2rem;
+  }
+  .list-itens li {
+    align-items: center;
+  }
+  .pages-container img {
+    width: 28px;
+  }
+
+  .search {
+    margin-left: 0;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .navbar-list li {
+    font-size: 16px;
+  }
+
+  .sub-navbar-container img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .navbar-container {
+    display: none;
+  }
+
+  .navbar-list li {
+    font-size: 14px;
+  }
 }
