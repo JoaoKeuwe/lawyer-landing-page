@@ -21,14 +21,13 @@ const AboutUs = () => {
       </section>
       <div>
         <div className="frst-images">
-          <img style={{ width: '250px', height: '250px', borderTopLeftRadius: "100px", marginRight: "20px" }} src={first} alt="" />
-
-          <img style={{ width: '250px', height: '250px', borderTopRightRadius: "100px" }} src={quarta} alt="" />
+          <img className="image1" src={first} alt="" />
+          <img className="image2" src={quarta} alt="" />
 
         </div>
         <div>
-          <img style={{ width: '250px', height: '250px', marginRight: "20px", borderBottomLeftRadius: "100px" }} src={quinta} alt="" />
-          <img style={{ width: '250px', height: '250px', borderBottomRightRadius: "100px" }} src={second} alt="" />
+          <img className="image3" src={quinta} alt="" />
+          <img className="image4" src={second} alt="" />
         </div>
       </div>
     </div>
