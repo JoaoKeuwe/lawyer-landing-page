@@ -18,7 +18,7 @@ const Header = () => {
           <ul className="list-itens">
             <li>
               <img src={location} alt="location" />
-              Velázquez 53, 2º Izda 28001 Madrid
+              Velázquez 53, 2º <br className="mobile"/> Izda 28001 Madrid
             </li>
             <li style={{ alignItems: "baseline" }}>
               <img src={email} alt="email" />
@@ -36,7 +36,7 @@ const Header = () => {
           <img src={tw} alt="twitter" />
           <img src={ig} alt="instagram" />
           <img src={linkedin} alt="linkedin" />
-          <img style={{ width: "30px", background: "#B79D5B", padding: '15px', marginLeft: "15px" }} src={search} alt="" />
+          <img className="search" src={search} alt="" />
         </div>
       </nav>
       <div className="sub-navbar-container" >
