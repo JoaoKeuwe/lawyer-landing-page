@@ -31,7 +31,6 @@
 .feedbacks-content {
   display: flex;
   flex-direction: column;
-  width: 70rem;
 }
 
 .feedbacks-content p {
@@ -76,7 +75,6 @@ line-height: 35px; /* 238.889% */
   }
   
   .feedbacks-content p {
-    width: 23rem;
     font-size: 20px;
   }
 }
