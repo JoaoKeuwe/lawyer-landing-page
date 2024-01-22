@@ -15,28 +15,30 @@ const News = () => {
       <div className="about-content">
         <p className="p1">Noticias interessantes</p>
         <p className="p2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic
-          ex fugiat ducimus minima.
+          Descubra insights jurídicos em nosso blog, abordando temas como
+          direito mercantil, societário, fiscal e de concorrência. Fique
+          atualizado com análises especializadas e dicas práticas para
+          negócios..
         </p>
       </div>
       <div className="news-container">
         <CardNews
           image={valo}
-          title={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr"}
+          title={"Estratégias Legais para Fortalecer sua Empresa no Direito Mercantil"}
           information={"Categoria"}
           date={"11 janeiro 2024"}
         />
 
         <CardNews
           image={calculator}
-          title={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr"}
+          title={"Os Impactos Jurídicos das Novas Regulações Fiscais: O Que Você Precisa Saber"}
           information={"Categoria"}
           date={"06 Janeiro 2024"}
         />
 
         <CardNews
           image={ambiente}
-          title={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr"}
+          title={"Concorrência Justa: Como Garantir a Adesão às Normas Antitruste em Seu Negócio"}
           information={"Categoria"}
           date={"30 Dezembro 2023"}
         />
