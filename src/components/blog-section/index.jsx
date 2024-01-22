@@ -18,54 +18,56 @@ const BlogSection = () => {
           <img src={direito} alt="" />
         </div>
         <div className="about-content">
-          <p className="p1">Nossas experiências a sua disposição</p>
+          <h2 className="p1">Nossas experiências a sua disposição</h2>
           <p className="p2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic
-            ex fugiat ducimus minima.
+            Com vasta experiência em direito mercantil, nossa equipe está pronta
+            para oferecer orientação jurídica sólida e personalizada para
+            impulsionar o sucesso de seu negócio. Conte conosco para superar
+            desafios com confiança e expertise.
           </p>
         </div>
         <div className="card-container">
           <Cards
             img={card1}
-            title={"Derecho Mercantil "}
+            title={"Direito Mercantil "}
             text={
-              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
+            "O direito mercantil regula relações comerciais, incluindo contratos, sociedades e falências, buscando um ambiente jurídico propício ao desenvolvimento empresarial, promovendo justiça e eficiência."
             }
           />
 
           <Cards
             img={card2}
-            title={"Derecho Societario Mercantill "}
+            title={"Direito Societario Mercantill "}
             text={
-              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
+              "Direito Societário Mercantil: Regras para formação e operação de sociedades comerciais, cobrindo estruturação, responsabilidades e aspectos legais da gestão empresarial."
             }
           />
           <Cards
             img={card3}
-            title={"Derecho Fiscal "}
+            title={"Direito Fiscal "}
             text={
-              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
+              "Direito Fiscal: Normas que regulam relações entre contribuintes e o Estado, envolvendo tributos e obrigações fiscais para assegurar legalidade e equidade na arrecadação."
             }
           />
           <Cards
             img={card4}
-            title={"Derecho Procesal "}
+            title={"Direito Processal "}
             text={
-              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
+              "Direito Processual: Normas que guiam procedimentos judiciais, definindo regras para resolver litígios de forma efetiva e justa."
             }
           />
           <Cards
             img={card5}
-            title={"Valoración De Empresas "}
+            title={"Valorização De Empresas "}
             text={
-              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
+              "Valorização de empresas no direito:Avaliação do valor de uma empresa, considerando fatores legais, essencial em transações e negociações comerciais."
             }
           />
           <Cards
             img={card6}
-            title={"Derecho De La Competencia "}
+            title={"Direito de competências "}
             text={
-              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero."
+              "Direito de Concorrência: Regula a competição entre empresas para prevenir práticas anticoncorrenciais, assegurando um ambiente competitivo saudável e benefícios aos consumidores."
             }
           />
         </div>
