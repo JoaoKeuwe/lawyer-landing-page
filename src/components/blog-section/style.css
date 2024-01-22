@@ -63,5 +63,13 @@
     flex-wrap: wrap;
   }
 
+  .p1 {
+    margin: 2rem 0;
+  }
+
+  .p2 {
+    text-align: center;
+  }
+
   
 }
