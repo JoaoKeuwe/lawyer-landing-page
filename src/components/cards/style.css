@@ -57,3 +57,14 @@
 .card:hover .title {
   color: #ccbd99;
 }
+
+@media(max-width: 768px) {
+  .title {
+    font-size: 26px;
+    
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}
