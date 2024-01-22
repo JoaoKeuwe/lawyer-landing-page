@@ -11,10 +11,9 @@ const AboutUs = () => {
     <div className="about-us-container">
       <section>
         <p className="paragraph1">Primeira Reunião Gratuita</p>
-        <h2>uma firma especializada <br /> em direito Mercantil</h2>
+        <h2>Uma firma especializada <br /> em direito Mercantil</h2>
         <p className="paragraph2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          corporis blanditiis illo, nulla, consequuntur beatae molestias
+          Direito mercantil, também conhecido como direito comercial, é a área jurídica que regulamenta as relações e transações comerciais entre empresas. Abrangendo contratos, sociedades, falências e outros aspectos, visa proporcionar um ambiente legal seguro para o desenvolvimento e operação das atividades comerciais, promovendo a justiça e equidade nas relações empresariais.
         </p>
         <h3>Ligue para nós e tiraremos suas dúvidas</h3>
         <p className="paragraph3">0034 911 310 647</p>
