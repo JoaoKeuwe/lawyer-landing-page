@@ -18,10 +18,13 @@ const Experience = () => {
           />
         </div>
         <div className="about-content">
-          <p className="p1">Nossas experiências a sua disposição</p>
+          <p className="p1">Nosso Time está a sua disposição!</p>
           <p className="p2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic
-            ex fugiat ducimus minima.
+            Nosso time é composto por profissionais jurídicos apaixonados e
+            dedicados, especializados em direito mercantil. Com vasta
+            experiência e comprometimento, estamos prontos para oferecer
+            soluções personalizadas que atendam às suas necessidades comerciais.
+            Conte conosco para uma parceria sólida e orientada ao sucesso.
           </p>
         </div>
       </div>
@@ -56,12 +59,14 @@ const Experience = () => {
 
       <div className="feedback">
         <div className="feedbacks-content">
-          <p style={{color: 'white'}}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
+          <p style={{ color: "white" }}>
+            “Estou extremamente satisfeito com o atendimento excepcional e os resultados impressionantes que obtive no escritório de advocacia. A equipe demonstrou profissionalismo exemplar, oferecendo orientação perspicaz em questões de direito mercantil. Suas habilidades resultaram em soluções eficazes para minha empresa. Recomendo calorosamente pela expertise e atenção personalizada.”
+          </p>
 
           <div className="woman-container">
             <img src={woman} alt="" />
             <div className="information-woman">
-              <h2>Michelle Rodrigues</h2>
+              <h2>Giovanna Lopes</h2>
               <p>Administradora</p>
             </div>
           </div>
