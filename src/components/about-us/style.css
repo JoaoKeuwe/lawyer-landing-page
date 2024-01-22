@@ -1,9 +1,9 @@
 .paragraph1 {
   color: #ccbd99;
-  font-family: Inter;
+  font-family: "Playfair Display";
   font-size: 25px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -13,7 +13,7 @@
   font-family: "Playfair Display";
   font-size: 55px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   line-height: normal;
 }
 .about-us-container {
@@ -151,11 +151,11 @@
 
 @media (max-width: 768px) {
   .about-us-container {
-    padding: 10rem 0;
+    padding: 10rem 2rem;
   }
 
   .about-us-container section {
-    width: 20rem;
+    width: auto;
   }
 
   .about-us-container h2 {
@@ -166,11 +166,11 @@
   .paragraph1 {
     font-size: 18px;
     text-align: center;
+    font-family: "Playfair Display";
   }
 
   .paragraph2 {
     font-size: 18px;
-    text-align: center;
   }
 
   .about-us-container h3 {
